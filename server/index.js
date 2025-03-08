@@ -53,22 +53,11 @@ mongoose
   .then(() => {
     app.listen(Port, () => console.log(`Server listening on port: ${Port}`));
 
-    // insert auto user data in dbs
-    // User.insertMany(dataUser);
-
-    // insert auto product data in dbs
-    // Product.insertMany(dataProduct);
-
-    // insert auto productStat data in dbs
-    // ProductStat.insertMany(dataProductStat);
-
-    // insert auto transaction data in dbs
-    // Transaction.insertMany(dataTransaction);
-
-    // insert auto overallStat data in dbs
-    //OverallStat.insertMany(dataOverallStat);
-
-    // insert auto AffiliateStat data in dbs
-    //AffiliateStat.insertMany(dataAffiliateStat);
+    // User.insertMany(dataUser),
+    // Product.insertMany(dataProduct),
+    // ProductStat.insertMany(dataProductStat),
+    // Transaction.insertMany(dataTransaction),
+    // OverallStat.insertMany(dataOverallStat),
+    // AffiliateStat.insertMany(dataAffiliateStat)
   })
   .catch((error) => console.log(`${error} did not connect`));

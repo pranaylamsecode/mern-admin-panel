@@ -68,7 +68,7 @@ const SideBar = ({ user }) => {
                 <img
                   style={{ width: "30px", height: "30px", borderRadius: "8px" }}
                   src={logo}
-                  alt="Golden"
+                  alt="PSL"
                 />
                 {!collapsed && (
                   <Typography
@@ -76,7 +76,7 @@ const SideBar = ({ user }) => {
                     fontWeight="bold"
                     textTransform="capitalize"
                   >
-                    Golden
+                    PSL
                   </Typography>
                 )}
               </Box>
